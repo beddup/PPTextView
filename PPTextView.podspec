@@ -8,6 +8,6 @@ spec.summary          = 'a custom UITextView.'
 spec.source           = { :git => 'https://github.com/beddup/PPTextView.git', :tag => 'v0.0.1' }
 spec.source_files     = 'PPTextView/*'
 spec.requires_arc     = true
-
+spec.framework='UIKit','MobileCoreServices'
 end
 
